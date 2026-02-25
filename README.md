@@ -62,7 +62,11 @@ If you do not have Git:
 
 ### 3. Open PowerShell (if not already open in project folder)
 1. Press `Win + X` and open `Terminal`.
-2. `cd` into the `irctc-automation` project folder.
+2. Run the below command:
+
+```powershell
+cd 'path\to\project'
+```
 
 ### 4. Create virtual environment
 ```powershell
