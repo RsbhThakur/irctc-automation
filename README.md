@@ -47,14 +47,22 @@ irctc/
 1. Download Python 3.10+ from: https://www.python.org/downloads/
 2. During install, enable `Add Python to PATH`.
 
-### 2. Open this project folder in VS Code
-1. Open VS Code.
-2. `File -> Open Folder...`
-3. Select this `irctc` folder.
+### 2. Get the project code
+If you have Git:
+```powershell
+git clone https://github.com/RsbhThakur/irctc-automation.git
+cd irctc-automation
+```
 
-### 3. Open terminal
-1. In VS Code: `Terminal -> New Terminal`
-2. Make sure prompt path is this project folder.
+If you do not have Git:
+1. Scroll to the top of the page
+2. Click `Code` -> `Download ZIP`
+3. Extract the ZIP
+4. Open PowerShell inside the extracted `irctc-automation` folder
+
+### 3. Open PowerShell (if not already open in project folder)
+1. Press `Win + X` and open `Terminal`.
+2. `cd` into the `irctc-automation` project folder.
 
 ### 4. Create virtual environment
 ```powershell
@@ -99,6 +107,16 @@ python run.py
 - This creates the local browser profile used for session stability and faster page behavior.
 - The profile folder is local-only and should not be committed to Git.
 - It is already ignored in `.gitignore` (`browser_profile/`, `irctc_browser_profile/`).
+
+### 10. Always activate `.venv` before every run
+Each time you open a new PowerShell window, run:
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+Then run:
+```powershell
+python run.py
+```
 
 ---
 
