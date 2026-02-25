@@ -1,0 +1,13 @@
+# Core dependencies
+playwright>=1.40.0
+python-dotenv>=1.0.0
+Pillow>=10.0.0
+rich>=13.0.0
+qrcode>=7.4.2
+
+# Captcha solving — local ML (recommended)
+easyocr>=1.7.0
+
+# Optional / not required for browser approach
+# httpx[http2]>=0.28.0
+# curl_cffi>=0.14.0

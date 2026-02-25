@@ -1,0 +1,27 @@
+{
+  "TRAIN_NO": "12506",
+  "TRAIN_COACH": "1A",
+  "TRAVEL_DATE": "23/04/2026",
+  "SOURCE_STATION": "NDLS",
+  "DESTINATION_STATION": "GHY",
+  "QUOTA": "GENERAL",
+  "PAYMENT_METHOD": "UPI",
+  "AUTO_UPGRADE": true,
+  "BOOK_ONLY_IF_CNF": true,
+  "PASSENGER_DETAILS": [
+    {
+      "NAME": "Passenger One",
+      "AGE": 30,
+      "GENDER": "Male",
+      "BERTH": "Lower",
+      "FOOD": "No Food"
+    },
+    {
+      "NAME": "Passenger Two",
+      "AGE": 28,
+      "GENDER": "Female",
+      "BERTH": "Lower",
+      "FOOD": "No Food"
+    }
+  ]
+}
